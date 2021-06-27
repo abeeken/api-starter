@@ -1,0 +1,11 @@
+// Configure your MongoDb connection string
+var protocol = '';
+var username = '';
+var password = '';
+var hostname = '';
+var port = '';
+var dbname = '';
+
+// Or you could just output the entire connection string here, which may be easier for dev
+var url = protocol+'://'+username+':'+password+'@'+hostname+'/'+dbname;
+module.exports = url
