@@ -1,3 +1,5 @@
+// ****** Copy this file to dbConfig.js and set up your connection
+
 // Configure your MongoDb connection string
 var protocol = '';
 var username = '';
